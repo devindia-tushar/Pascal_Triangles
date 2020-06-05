@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ /*int i,a,m=9,n=9,j,k;
+ clrscr();
+ for(i=1;i<=5;i++)
+{
+ for(j=4;j>=i;j--)
+ {
+  printf(" ");
+ }
+ for(k=1;k<=i*2-1;k++)
+ {
+  printf("*");
+ }
+ for(a=1;a<=n;a++)
+ {
+  printf(" ");
+ }
+ for(k=1;k<=i*2-1;k++)
+ {
+  printf("*");
+ }
+  n=n-2;
+ printf("\n");
+}
+
+ for(i=1;i<=5;i++)
+{
+ for(j=2;j<=i;j++)
+ {
+  printf(" ");
+ }
+ for(k=1;k<=m;k++)
+ {
+  printf("*");
+ }
+ for(a=1;a<=i*2-1;a++)
+ {
+  printf(" ");
+ }
+ for(k=1;k<=m;k++)
+ {
+  printf("*");
+ }
+  m=m-2;
+  printf("\n");
+}
+getch();
+}
